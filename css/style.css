@@ -1,0 +1,308 @@
+:root{
+    --mainOrange:rgb(255, 91, 53);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    direction: rtl;
+    /* font-family: dana,iranyekan,roboto,Arial!important; */
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.main-header {
+    border-bottom: 1px solid #ddd;
+}
+.header{
+    background-color: #f8f8f8;
+}
+.lines {
+    margin-top: 10px;
+}
+.lines div{
+    margin-top: 5px;
+}
+.tabsi {
+    font-size:30px ;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+.navbar-brand:hover .tabsi  {
+    color: var(--mainOrange);
+}
+.navbar-link ul li a {
+    margin: 0 8px;
+    color: #545454;
+}
+@media (min-width:991.99px) {
+    .download {
+        width: 170px;
+        text-align: center;
+    }
+    .download a {
+        background-color: var(--mainOrange);
+        border-radius: 10px; 
+        color: #fff !important;
+    }
+}
+@media (max-width:991.99px){
+    .navbar-link {
+        background-color: #fff;
+        width: 100%;
+        box-shadow: 0 10px 27px rgb(0 0 0 / 5%);
+        left: 0;
+        position: fixed;
+        top: 60px;
+    }
+    .navbar-link a {
+        margin-right: 0 auto;
+    }
+}
+.section-1 {
+    margin-bottom: 100px;
+}
+.height-max {
+    height: calc(100vh - 200px);
+    background: url("https://tapsi.ir/images/home/banner.webp") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.content-continer {
+    height: 340px;
+    background-image: linear-gradient(51deg,rgba(23,26,60,.7) 5%,rgba(23,26,60,.3) 95%);
+    border-radius: 30px;
+    margin-top: 60px;
+}
+@media(max-width:775px) {
+    .content-continer{
+        height: auto;
+    }
+    .height-max {
+        height: auto;
+    }
+}
+.title{
+    color: #fff;
+    font-size: 40px !important;
+}
+.sub-title{
+    color: #fff;
+    font-size: 20px !important;
+}
+.intro-btn>div a{
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.picture {
+    box-shadow: 0 10px 27px rgb(0 0 0 / 5%);
+    left: 0;
+    position: fixed;
+    top: 50px;
+}
+.nav-tabs {
+    overflow: auto;
+}
+.nav-tabs a {
+    min-width: 95px;
+    vertical-align: middle;
+    color: #545454;
+}
+.nav-tabs a img {
+    width: 100%;
+    margin: 0 auto;
+    filter: opacity(1);
+    height: 60%;
+}
+.nav-tabs a:not(.active) img {
+    filter: opacity(.35);
+}
+.nav-tabs a:hover img{
+    filter: opacity(1);
+}
+.description {
+    color: #333;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    text-align: justify
+}
+.tab-content {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 50px;
+}
+.section-2 {
+    margin-bottom: 100px;
+}
+.section-3 {
+    margin-bottom: 100px;
+}
+.pannel-tapsi {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+@media(max-width:768px) {
+    .pannel-tapsi img{
+        margin-bottom: 50px;
+    }
+    .section:not(.divar) {
+        padding: 10px;
+        width: 100%;
+    }
+}
+.detail-link {
+    color: var(--mainOrange);
+}
+.detail-link a{
+    color: var(--mainOrange);
+}
+.links-wrapper a {
+    background-color: var(--mainOrange);
+    border-radius: 15px;
+    padding: 14px 35px;
+    color: #fff;
+}
+.section-4 {
+    background: url("../image/parallax.jpeg") center/cover fixed no-repeat;
+    background-color: green;
+    padding: 50px 0;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.section {
+    width: 24.5%;
+}
+.section h3 {
+    font-size: 18px!important;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.section:hover .note {
+    display: block;
+}
+.note {
+    display: none;
+}
+.divar {
+    background-color: #fff;
+    height: 50px;
+    width: 2px;
+}
+.section-5 {
+    margin-bottom: 150px;
+}
+.link-wrappers a{
+    margin-left: 5px;
+    padding: 15px 15px;
+    align-items: center;
+    background-color: #0065dc;
+    border-radius: 12px;
+    color: #fff;
+}
+.section-6 {
+    margin-bottom: 150px;
+}
+.section-6 p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.section-6 img {
+    border-radius: 12px;
+}
+.box {
+    padding: 10px;
+}
+.box:hover {
+    box-shadow: 0 10px 27px rgb(0 0 0 / 15%);
+}
+.section-7 {
+    background: #f8f8f9 url(https://tapsi.ir/images/map-back.svg?2ad97937f42a681e2ad83a42d8cae6a0) no-repeat;
+    padding-bottom: 50px;
+}
+.city {
+    width: 12%;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.persion-name {
+    font-size: 16px;
+}
+.Enghlish-name {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 70px;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+@media(max-width:768px){
+    .footer-col {
+        width: 100%;
+    }
+    .brand-col {
+        width: 100%;
+    }
+}
+@media(min-width:768px){
+    .footer-col {
+        width: 20%;
+    }
+    .brand-col {
+        width: 20%;
+    }
+
+}
+.link {
+    color: #fff;
+    margin-bottom: 6px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.link:hover {
+    color: var(--mainOrange);
+    text-decoration: none;
+}
+.trust-col {
+    width: 20%;
+}
+.brand-col p {
+    font-size: 12px !important;
+}
+.social-link a{
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
